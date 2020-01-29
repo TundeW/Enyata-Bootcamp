@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ASSIGNMENT ON FORMS!!!</title>
+    </head>
+    <body>
+        <h1>Application Form</h1>
+        <form>
+            <fieldset>
+                <legend>Future Education</legend>
+
+                <label for="FOS">Field of Study</label>
+                <input type="text" id="FOS" required>
+                <label>Degree Program</label>
+                <select>
+                    <option value="bachelors">Bachelors</option>
+                    <option value="masters">Masters</option>
+                    <option value="phd(doctorate)">PhD(Doctorate)</option>
+                </select>
+                <br>
+                <br>
+                <label>Mode of Instruction</label>
+                <input type="radio" name="mode" value="Class">Class
+                <input type="radio" name="mode" value="Remote">Remote
+            </fieldset>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" required>
+                <label for="DOB">Date of Birth</label>
+                <input type="Date" id="DOB">
+                <label for="nationality">Nationality</label>
+                <input type="text" id="nationality" required>
+                <br>
+                <label for="address">Residential Address</label>
+                <input type="text" id="address">
+                <div>
+                    <label>Gender</label><br>
+                    <input type="radio" name="gender" value="male">Male<br>
+                    <input type="radio" name="gender" value="female">Female<br>
+                    <input type="radio" name="gender" value="others">Other
+                </div>
+                <label for="number">Contact Number</label>
+                <input type="number" id="number" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <div>
+                    <label>Languages</label>
+                    <input type="checkbox" name="language" value="englsh">English
+                    <input type="checkbox" name="language" value="yoruba">Yoruba
+                    <input type="checkbox" name="language" value="Igbo">Igbo
+                    <input type="checkbox" name="language" value="Hausa">Hausa
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Educational Background</legend>
+
+                <div>
+                    <h4>Secondary Education</h4>
+                    <div>
+                        <label for="schoolname">School Name</label>
+                        <input type="text" id="schoolname" required>
+                        <label for="schooladdress">School Address</label>
+                        <input type="text" id="schooladdress">
+                        <br>
+                        <label for="DOA">Date of Admission</label>
+                        <input type="Date" id="DOA">
+                        <label for="DOG">Date of Graduation</label>
+                        <input type="Date" id="DOG">
+                    </div>
+
+                </div>
+                <hr>
+                <div>
+                    <h4>University Education</h4>
+                    <div>
+                        <label for="universityname">University Name</label>
+                        <input type="text" id="universityname" required>
+                        <label for="universityaddress">University Address</label>
+                        <input type="text" id="universityaddress">
+                        <br>
+                        <label for="UDOA">Date of Admission</label>
+                        <input type="Date" id="UDOA">
+                        <label for="UDOG">Date of Graduation</label>
+                        <input type="Date" id="UDOG">
+                        <br>
+                        <label for="course">Course</label>
+                        <input type="text" id="course" required>
+                        <label>Certificate Degree</label>
+                        <select>
+                            <option value="bachelors">Bachelors</option>
+                            <option value="masters">Masters</option>
+                            <option value="phd(doctorate)">PhD(Doctorate)</option>
+
+                        </select>
+                    </div>
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Online Account Details</legend>
+                <label for="username">Username</label>
+                <input type="username" id="username" required>
+                <br>
+                <label for="password">Password</label>
+                <input type="text" id="password" required>
+            </fieldset>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
